@@ -1,0 +1,25 @@
+Since the presentation, some changes were made in the project:
+1- Sign out added:
+	-When signed in, user page (can be accessed by clicking on the user name) has the 
+	sign out option.
+2- Name Surname and exp date added to buy product:
+	-When buy page is accessed through the cart menu, buy page asks for card number, 
+	cvc2, name, surname and exp date (during the presentation it was only card number 
+	and cvc2)
+3- Edit user info added:
+	-When signed in, user page has the edit option. It asks for the old password, new 
+	password and the previous user info can be edited. (When save button is clicked, if 
+	the correct old password for user is not entered, changes are not saved)
+4- Shopping Cart added:
+	-Shopping cart becomes available when the user is signed in. It appears next to the 
+	user name showing the item number in the cart. Cart menu can be accessed by clicking 
+	on the cart. Buy option is now on cart page.  (In the presentation, product info page 
+	had the buy product option. Now it has add to cart option. A product needs to be added 
+	to cart before it can be bought. Many different products can be bought at the same time.)
+5- Delete user added:
+	-When signed in, user page has the delete user option. Delete option asks for users password, 
+	if the correct password is entered, it removes the user from the database.
+6- All predefined users has the password 123456. Its hashed so the database shows a different value
+7- When a new user is signing up, website checks to see if mail address has the character @. 
+
+IMPORTANT:Connections for the website uses a local database so its set to the path of that database using its path "jdbc:derby://localhost:1527/webdatabaseproje" password is "proje" and username is "proje". New connection must be set before running the program.
